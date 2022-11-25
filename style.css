@@ -1,0 +1,24 @@
+.first-head{
+    background: green;
+    color: white;
+}
+h2{
+    font-size: 40px;
+}
+
+section article p{
+    color: orange;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="text"]::placeholder{
+    color:green;
+}
+
+.button:hover{
+    color: blue;
+}
+
