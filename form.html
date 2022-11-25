@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <form action="index.html" method="POST" enctype="multipart/form-data">
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+        </p>
+
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </p>
+
+        <p>
+            <label for="phone">Phone</label>
+            <input type="number" id="number">
+        </p>
+
+        <p>
+            <label for="age">Age</label>
+            <input type="number" min="10" max="60">
+        </p>
+        
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </p>
+
+        <p>
+            <label for="url">URL</label>
+            <input type="url" id="url">
+        </p>
+
+        <p>
+            <label for="date">DOB</label>
+            <input type="date" id="date" min="2022-11-22">
+        </p>
+
+        <p>
+            <textarea name="" id="" cols="30" rows="10" maxlength="25">Comments</textarea>
+        </p>
+
+        <p>
+            <input type="checkbox"><label>I agree</label>
+        </p>
+
+        <p>
+            <label for="">Gender</label>
+            <input type="radio" name="gender"><label for="">Male</label>
+            <input type="radio" name="gender"><label for="">Female</label>
+            <input type="radio" name="gender"><label for="">Prefer not to say</label>
+        </p>
+
+       <p>
+        <input type="file">
+       </p> 
+
+        <input type="submit" value="Submit Form">
+        
+
+    </form>
+</body>
+
+</html>
